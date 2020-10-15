@@ -9,8 +9,6 @@ end
 
 gem 'activesupport'
 gem 'chronic'
-gem 'rest-client'
 gem 'rack'
-gem 'yajl-ruby', require: 'yajl'
 gem 'nokogiri'
-gem 'pry-byebug', "~> 1.3.2"
+gem 'pry-byebug'

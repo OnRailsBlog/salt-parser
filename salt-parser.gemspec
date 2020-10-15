@@ -20,7 +20,10 @@ Gem::Specification.new do |s|
 
   s.metadata = { "issue_tracker" => "https://github.com/saltedge/salt-parser/issues" }
 
-  s.add_dependency "nokogiri", "~> 1.6"
+  s.add_dependency "nokogiri"
+  s.add_dependency "chronic"
+  s.add_dependency "rack"
+  s.add_dependency "activesupport"
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency 'bundler', "~> 1.3"
   s.add_development_dependency "rake", "~> 1.6"

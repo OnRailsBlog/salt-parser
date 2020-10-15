@@ -1,6 +1,7 @@
 require "pry-byebug"
 require "simplecov"
 require "timecop"
+require 'active_support/all'
 
 require_relative "support/fixture"
 
